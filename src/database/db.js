@@ -10,7 +10,7 @@ import mysql from 'mysql'
 // };
 
 const dbConfig = {
-  host:  "database-2-instance-1.cf6ggu0as2zc.us-east-2.rds.amazonaws.com", // Host local debido al túnel SSHs
+  host:  "dlc-data.cf6ggu0as2zc.us-east-2.rds.amazonaws.com", // Host local debido al túnel SSHs
   user:  "crystal", // Tu usuario de la base de datos
   password:"crystal123", // Tu contraseña de la base de datos
   database:"crystal", // El nombre de tu base de datos
