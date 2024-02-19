@@ -11,9 +11,9 @@ import mysql from 'mysql'
 
 
 const dbConfig = {
-  host:  "localhost", // Host local debido al túnel SSHs
+  host:  "database-1.cf6ggu0as2zc.us-east-2.rds.amazonaws.com", // Host local debido al túnel SSHs
   user:  "crystal", // Tu usuario de la base de datos
-  password:"crystal", // Tu contraseña de la base de datos
+  password:"crystal123", // Tu contraseña de la base de datos
   database:"crystal", // El nombre de tu base de datos
   port:3306, // El puerto local del túnel SSH
 };
